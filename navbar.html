@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> navbar html</title>
+
+<style>
+	*{
+		margin:0;
+}
+ul{
+	display:flex;
+	position:relative;
+	top:20%;
+}
+ul li{
+	margin-left:30px;
+	list-style:none;
+}
+ul li a {
+	text-decoration:none;
+	font-size:20px;
+	color:red;
+}
+
+
+.main-container{
+		display:flex; 
+		background-color:purple;
+		padding:30px;
+				}
+.brand-name{
+		font-size:40px;
+		color:BLACK;
+		font-style:italic;
+		font-weight:bold;
+}
+ul li a:hover{
+		color:BLACK;
+		font-weight:bold;
+}
+.brand-name:hover{
+		color:PINK;
+}
+	.horizental-container{
+				margin-top:20PX;
+				display:flex;
+				JUSTIFY-CONTENT:CENTER;
+				BORDER:2PX SOLID BLACK;
+	}
+		.d1{
+			BACKGROUND-COLOR:pink;
+			COLOR:WHITE;
+			PADDING:25PX;
+		}
+		.d2{
+			BACKGROUND-COLOR:RED;
+			COLOR:WHITE;
+			PADDING:25PX;
+		}
+		.d3{
+			BACKGROUND-COLOR:YELLOW;
+			COLOR:WHITE;
+			PADDING:25PX;
+		}
+		.first-container{
+				margin-top:20px;
+				display:flex;
+				height:400px;
+				width:500px;
+				align-items:center;
+				justify-content:space-between;
+				border:2px solid black;
+				
+				}
+		.second-container{
+				margin-top:20px;
+				display:flex;
+				height:400px;
+				width:500px;
+				align-items:center;
+				justify-content:center;
+				border:2px solid black;
+				}
+		.row-container{
+				display:flex;
+				justify-content:space-evenly;
+				}
+		.outer-container{
+				margin-top:10px;
+				display:flex;
+				height:400px;
+				width:50%;
+				margin:auto;
+				justify-content:center;
+				border:3px solid purple;
+				}
+		.d4{
+				background-color:purple;
+				padding:25px;
+				height:100px;
+				width:100px;
+				color:white;
+				position:relative;
+				top:20%;
+
+				
+				}
+body{background-color:orange;}
+
+					
+</style>
+</head>	
+
+<body>
+<div class="main-container">
+<div class ="company-name">
+<p class ="brand-name"> Company Name </p>
+</div>
+<div class ="navbar-list">
+<ul> 
+	<li> <a href="HOME.HTML"> Home </a> </li>
+	<li> <a href="ABOUT.HTML"> About  </a> </li>
+	<li> <a href="CONTACT.HTML">contact </a> </li> 
+	<li> <a href="LOGIN.HTML"> login </a> </li>
+</ul>
+</div>
+</div>
+		<!--FLEXBOX CONCEPTS-->
+		<!--MOVE HORIZENTALY-->
+				<div class="horizental-container">
+					<div class = "d1">
+						DIV ONE
+					</div>
+					<div class = "d2">
+						DIV TWO
+					</div>
+					<div class = "d3">
+						DIV THREE
+					</div>
+				</div>
+		<!--MOVE VIRTICALLY-->
+				<div class="row-container">
+				<div class="first-container">
+					<div class = "d1">
+						DIV ONE
+					</div>
+					<div class = "d2">
+						DIV TWO
+					</div>
+					<div class = "d3">
+						DIV THREE
+					</div>
+				</div>
+				<div class="second-container">
+					<div class = "d1">
+						DIV ONE
+					</div>
+					<div class = "d2">
+						DIV TWO
+					</div>
+					<div class = "d3">
+						DIV THREE
+					</div>
+				</div>
+				</div>
+				<div class="outer-container">
+					<div class="d4">
+						DIV ONE
+					</div>
+				</div>
+	
+</body>
+</html>
